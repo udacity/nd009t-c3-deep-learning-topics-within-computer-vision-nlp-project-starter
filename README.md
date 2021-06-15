@@ -1,55 +1,42 @@
-# README Template
+**NOTE:** This file is a template that you can use to create the README for your project. The **TODO** comments below will highlight the information you should be sure to include.
 
-Below is a template provided for use when building your README file for students.
+# Your Project Title Here
 
-# Project Title
+**TODO:** Write a short introduction to your project.
 
-Project description goes here.
+## Project Set Up and Installation
+**OPTIONAL:** If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to make your `README` detailed and self-explanatory. For instance, here you could explain how to set up your project in AWS and provide helpful screenshots of the process.
 
-## Getting Started
+## Dataset
 
-Instructions for how to get a copy of the project running on your local machine.
+### Overview
+**TODO**: Explain about the data you are using and where you got it from.
 
-### Dependencies
+### Access
+**TODO**: Explain how you are accessing the data in AWS and how you uploaded it
 
-```
-Examples here
-```
+## Hyperparameter Tuning
+**TODO**: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 
-### Installation
+Remember that your README should:
+- Include a screenshot of completed training jobs
+- Logs metrics during the training process
+- Tune at least two hyperparameters
+- Retrieve the best best hyperparameters from all your training jobs
 
-Step by step explanation of how to get a dev environment running.
+## Debugging and Profiling
+**TODO**: Give an overview of how you performed model debugging and profiling in Sagemaker
 
-List out the steps
+### Results
+**TODO**: What are the results/insights did you get by profiling/debugging your model?
 
-```
-Give an example here
-```
+**TODO** Remember to provide the profiler html/pdf file in your submission.
 
-## Testing
 
-Explain the steps needed to run any automated tests
+## Model Deployment
+**TODO**: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 
-### Break Down Tests
+**TODO** Remember to provide a screenshot of the deployed active endpoint in Sagemaker.
 
-Explain what each test does and why
-
-```
-Examples here
-```
-
-## Project Instructions
-
-This section should contain all the student deliverables for this project.
-
-## Built With
-
-* [Item1](www.item1.com) - Description of item
-* [Item2](www.item2.com) - Description of item
-* [Item3](www.item3.com) - Description of item
-
-Include all items used to build project.
-
-## License
-
-[License](LICENSE.txt)
+## Standout Suggestions
+**TODO (Optional):** This is where you can provide information about any standout suggestions that you have attempted.
