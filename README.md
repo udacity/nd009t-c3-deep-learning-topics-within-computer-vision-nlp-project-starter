@@ -1,22 +1,21 @@
-**NOTE:** This file is a template that you can use to create the README for your project. The **TODO** comments below will highlight the information you should be sure to include.
+# Image Classification using AWS SageMaker
 
-# Your Project Title Here
-
-**TODO:** Write a short introduction to your project.
+Use AWS Sagemaker to train a pretrained model that can perform image classification by using the Sagemaker profiling, debugger, hyperparameter tuning and other good ML engineering practices. This can be done on either the provided dog breed classication data set or one of your choice.
 
 ## Project Set Up and Installation
-**OPTIONAL:** If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to make your `README` detailed and self-explanatory. For instance, here you could explain how to set up your project in AWS and provide helpful screenshots of the process.
+Enter AWS through the gateway in the course and open SageMaker Studio. 
+Download the starter files.
+Download/Make the dataset available. 
 
 ## Dataset
-
-### Overview
-**TODO**: Explain about the data you are using and where you got it from.
+The provided dataset is the dogbreed classification dataset which can be found in the classroom.
+The project is designed to be dataset independent so if there is a dataset that is more interesting or relevant to your work, you are welcome to use it to complete the project.
 
 ### Access
-**TODO**: Explain how you are accessing the data in AWS and how you uploaded it
+Upload the data to an S3 bucket through the AWS Gateway so that SageMaker has access to the data. 
 
 ## Hyperparameter Tuning
-**TODO**: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
+What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 
 Remember that your README should:
 - Include a screenshot of completed training jobs
